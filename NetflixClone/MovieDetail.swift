@@ -72,6 +72,10 @@ struct MovieInfoSubheadline: View {
             RatingView(rating: movie.rating)
             
             Text(movie.numberOfSeasonsDisplay)
+            
+            Text(" HD ")
+                .bold()
+                .border(Color.gray, width: 2)
         }
         .foregroundColor(.gray)
         .padding(.vertical, 6)
