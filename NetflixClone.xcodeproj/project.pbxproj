@@ -23,6 +23,7 @@
 		14805B8925FB986B003095B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14805B8825FB986B003095B0 /* Assets.xcassets */; };
 		14805B8C25FB986B003095B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14805B8B25FB986B003095B0 /* Preview Assets.xcassets */; };
 		14A4FF78260BEBCF00582FDC /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4FF77260BEBCF00582FDC /* Episode.swift */; };
+		14D3A43326112BBA002F6F3E /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3A43226112BBA002F6F3E /* MoreLikeThis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		14805B8B25FB986B003095B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14805B8D25FB986B003095B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A4FF77260BEBCF00582FDC /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		14D3A43226112BBA002F6F3E /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +124,7 @@
 				14805B8825FB986B003095B0 /* Assets.xcassets */,
 				14805B8D25FB986B003095B0 /* Info.plist */,
 				14805B8A25FB986B003095B0 /* Preview Content */,
-				145BA059260A9738000A4FC2 /* MovieDetail.swift */,
-				1433F6EC260D78A1001ADADB /* CustomTabSwitcher.swift */,
+				14D3A43026112B77002F6F3E /* MovieDetail */,
 			);
 			path = NetflixClone;
 			sourceTree = "<group>";
@@ -134,6 +135,16 @@
 				14805B8B25FB986B003095B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14D3A43026112B77002F6F3E /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				145BA059260A9738000A4FC2 /* MovieDetail.swift */,
+				1433F6EC260D78A1001ADADB /* CustomTabSwitcher.swift */,
+				14D3A43226112BBA002F6F3E /* MoreLikeThis.swift */,
+			);
+			path = MovieDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				142CC7DF2603360E00CE259E /* TopMoviePreview.swift in Sources */,
 				1428F1AC25FC63E2004EA1B7 /* Movie.swift in Sources */,
 				14805B8525FB986B003095B0 /* NetflixCloneApp.swift in Sources */,
+				14D3A43326112BBA002F6F3E /* MoreLikeThis.swift in Sources */,
 				1433F6ED260D78A1001ADADB /* CustomTabSwitcher.swift in Sources */,
 				14587C97260407C90015219E /* SmallVerticalButton.swift in Sources */,
 				1474C0BB26054BEE00A5CAF2 /* PlayButton.swift in Sources */,
