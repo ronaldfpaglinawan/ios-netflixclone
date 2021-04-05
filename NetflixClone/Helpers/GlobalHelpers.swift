@@ -88,11 +88,13 @@ let exampleMovie1 = Movie(
     categories: ["Dystopian", "Exciting", "Suspensful", "Sci-Fi TV"],
     year: 2020,
     rating: "TV-MA",
-    numberOfSeasons: 1,
+    numberOfSeasons: 2,
     defaultEpisodeInfo: exampleEpisodeInfo1,
     creators: "",
     cast: "",
-    moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6, exampleMovie7], trailers: exampleTrailers)
+    moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6, exampleMovie7],
+    episodes: allExampleEpisodes,
+    trailers: exampleTrailers)
 
 let exampleMovie2 = Movie(
     id: UUID().uuidString,
