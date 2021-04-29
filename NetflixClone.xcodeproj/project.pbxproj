@@ -36,6 +36,7 @@
 		14DDD33B2631267D000BBAD6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD33A2631267D000BBAD6 /* SearchView.swift */; };
 		14DDD33E2631271C000BBAD6 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD33D2631271C000BBAD6 /* SearchVM.swift */; };
 		14DDD34126312AF4000BBAD6 /* GenerateMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD34026312AF4000BBAD6 /* GenerateMovies.swift */; };
+		14E7CA3E263A5EEB002D45B6 /* PopularMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7CA3D263A5EEB002D45B6 /* PopularMovieView.swift */; };
 		97C61E178239092C5ACFEE3A /* libPods-NetflixClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1339F96638C592DBD678B90F /* libPods-NetflixClone.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		14DDD33A2631267D000BBAD6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		14DDD33D2631271C000BBAD6 /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 		14DDD34026312AF4000BBAD6 /* GenerateMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMovies.swift; sourceTree = "<group>"; };
+		14E7CA3D263A5EEB002D45B6 /* PopularMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieView.swift; sourceTree = "<group>"; };
 		1821F81844176A27A2465DF7 /* Pods-NetflixClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixClone.debug.xcconfig"; path = "Target Support Files/Pods-NetflixClone/Pods-NetflixClone.debug.xcconfig"; sourceTree = "<group>"; };
 		DD2924F23AD01581E594343A /* Pods-NetflixClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixClone.release.xcconfig"; path = "Target Support Files/Pods-NetflixClone/Pods-NetflixClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				140CC443262E339200AD54AF /* SearchBar.swift */,
 				14DDD33A2631267D000BBAD6 /* SearchView.swift */,
 				14DDD33D2631271C000BBAD6 /* SearchVM.swift */,
+				14E7CA3D263A5EEB002D45B6 /* PopularMovieView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E7CA3E263A5EEB002D45B6 /* PopularMovieView.swift in Sources */,
 				14A71B1B2612C85800A8F238 /* EpisodesView.swift in Sources */,
 				14DDD34126312AF4000BBAD6 /* GenerateMovies.swift in Sources */,
 				14DDD33E2631271C000BBAD6 /* SearchVM.swift in Sources */,
