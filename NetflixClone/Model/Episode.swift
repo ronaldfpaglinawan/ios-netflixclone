@@ -18,6 +18,7 @@ struct Episode: Identifiable {
     var length: Int
     
     var videoURL: URL
+    var previewVideoURL: URL
     
     var thumbnailURL: URL {
         return URL(string: thumbnailImageURLString)!

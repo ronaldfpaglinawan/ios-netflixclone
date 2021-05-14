@@ -32,7 +32,8 @@ let episode1 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/102",
     description: "Six month after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden perished in an apocalyptic event.",
     length: 53,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 let episode2 = Episode(
     name: "Dark Matter",
@@ -41,7 +42,8 @@ let episode2 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/103",
     description: "Clausen and Charlotte interview Regina. The Stranger takes Hannah to 1987, where Claudia had an unnerving encounter and Egon visits an old nemesis.",
     length: 54,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 let episode3 = Episode(
     name: "Ghosts",
@@ -50,7 +52,8 @@ let episode3 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/104",
     description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon questions Ulrich again.",
     length: 56,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 let episode4 = Episode(
     name: "Beginnings and Endings",
@@ -59,7 +62,8 @@ let episode4 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/105",
     description: "Six month after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden perished in an apocalyptic event.",
     length: 53,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 let episode5 = Episode(
     name: "Dark Matter",
@@ -68,7 +72,8 @@ let episode5 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/106",
     description: "Clausen and Charlotte interview Regina. The Stranger takes Hannah to 1987, where Claudia had an unnerving encounter and Egon visits an old nemesis.",
     length: 54,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 let episode6 = Episode(
     name: "Ghosts",
@@ -77,7 +82,8 @@ let episode6 = Episode(
     thumbnailImageURLString: "https://picsum.photos/300/107",
     description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon questions Ulrich again.",
     length: 56,
-    videoURL: exampleVideoURL)
+    videoURL: exampleVideoURL,
+    previewVideoURL: exampleVideoURL)
 
 var allExampleEpisodes = [episode1, episode2, episode3, episode4, episode5, episode6]
 
@@ -94,7 +100,8 @@ let exampleMovie1 = Movie(
     cast: "",
     moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6, exampleMovie7],
     episodes: allExampleEpisodes,
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "ozarkPreview")
 
 let exampleMovie2 = Movie(
     id: UUID().uuidString,
@@ -109,7 +116,8 @@ let exampleMovie2 = Movie(
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
     promotionHeadline: "Best Rated Show",
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "darkPreview")
 
 let exampleMovie3 = Movie(
     id: UUID().uuidString,
@@ -123,7 +131,8 @@ let exampleMovie3 = Movie(
     creators: "Baran bo Odan, Jantje Friese",
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "arrestedDevPreview")
 
 let exampleMovie4 = Movie(
     id: UUID().uuidString,
@@ -138,7 +147,8 @@ let exampleMovie4 = Movie(
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
     promotionHeadline: "New episodes coming soon",
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "dirtyJohnPreview")
 
 let exampleMovie5 = Movie(
     id: UUID().uuidString,
@@ -152,7 +162,8 @@ let exampleMovie5 = Movie(
     creators: "Baran bo Odan, Jantje Friese",
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "travelersPreview")
 
 let exampleMovie6 = Movie(
     id: UUID().uuidString,
@@ -167,7 +178,8 @@ let exampleMovie6 = Movie(
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
     promotionHeadline: "Watch Season 6 Now",
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "whiteLinesPreview")
 
 let exampleMovie7 = Movie(
     id: UUID().uuidString,
@@ -182,7 +194,8 @@ let exampleMovie7 = Movie(
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [],
     promotionHeadline: "Watch Season 6 Now",
-    trailers: exampleTrailers)
+    trailers: exampleTrailers,
+    previewImageName: "ozarkPreview")
 
 var exampleMovies: [Movie] {
     return [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6].shuffled()
